@@ -3,11 +3,15 @@ body {
   margin: 0;
 }
 .columns {
+  width: 33%;
+  float: left;
   background-color: skyblue;
   border: 3px solid green;
   margin: 5px;
-  text-align: center;
 
+}
+img {
+  width: 100%;
 }
 
 h1 {
@@ -16,11 +20,12 @@ h1 {
 
 p {
   width: 280px;
+  display: inline;
 }
 
 body h2 {
   font-style: italic;
-  
+
 }
 
 @media screen and (min-width: 768px) {
@@ -33,7 +38,7 @@ body h2 {
     text-align: center;
   }
 }
-
+/*
 @media screen and (max-width: 768px) and (min-width: 550px) {
   .columns {
     background-color: skyblue;
@@ -44,12 +49,13 @@ body h2 {
     text-align: center;
    }
   }
+  */
 
   @media screen and (max-width: 580px) {
     .columns {
       background-color: red;
       float: left;
-      width: 300px;
+      width: 500px;
       border: 3px solid green;
       margin: 5px;
       text-align: center;
